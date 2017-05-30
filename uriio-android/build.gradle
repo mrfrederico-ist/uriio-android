@@ -46,8 +46,7 @@ dependencies {
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
 
-    compile 'com.uriio:beacons-android:1.5.1'
-//    compile project(':beacons-android')
+    compile project(path: ':beacons-android')
 
     testCompile 'junit:junit:4.12'
 }

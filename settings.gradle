@@ -1,1 +1,4 @@
-include ':uriio-android'
+include ':uriio-android', ':beacons-android'
+
+// FIX - Change libs folder path
+project (':beacons-android').projectDir = new File(settingsDir, '../beacons-android/beacons-android')
